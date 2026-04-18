@@ -11,7 +11,7 @@ class Solution
      * @param int $target
      * @return int[]
      */
-    public function twoSum(array $nums, int $target): array
+    public function solve(array $nums, int $target): array
     {
         $map = [];
         foreach ($nums as $index => $num) {
